@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Oussama MOUNAJJIM</title>
+    <link rel="icon" type="image/x-icon" href="Images/about.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">GiftBook.shop</a>
+        <i class='bx bx-menu' id="menu-icon" ></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Create my book</a>
+            <a href="#contact">Contact Us</a>
+
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome to</h3>
+            <h1>GiftBook</h1>
+            <h3>Creating for <span class="multiple-text"></span></h3>
+            <p>
+                At GiftBook, we specialize in crafting personalized books that celebrate life's special events - birthdays, graduations, relationships, and more. Our unique books are tailor-made, featuring a cover page with the main person's picture, heartfelt texts, interactive elements like riddles and QR codes, and personal contributions from friends and family.<br>
+                <b><span></span>Start creating a lasting memory today!</span></b>
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/itsmeussa/"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://github.com/itsmeussa"><i class='bx bxl-tiktok' ></i></a>
+                <a href="https://www.instagram.com/itsmeussa/"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <a href="https://forms.gle/uPU7KHtA5Hg5QW1Y6" class="btn">Order now</a>
+
+        </div>
+        <div class="home-img">
+            <img src="Images/Cover.png" alt="">
+        </div>
+        <div class="about-content"></div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Images/Cover.png" alt="">
+        </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>GiftBook</span></h2>
+                <h3>Personalized Books for Every Occasion</h3>
+                <p>
+                    GiftBook is a unique service dedicated to creating personalized books that capture the essence of life's special moments. From birthdays to graduations, each book is a bespoke creation that intertwines personal stories, memories, and multimedia elements. Our team, passionate about storytelling and innovation, ensures every book is a masterpiece that celebrates individual journeys and friendships. Discover the art of personalization with GiftBook and turn your memories into a timeless keepsake.
+                </p>
+                <a href='#' class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <!-- Personalized Book Creation -->
+            <div class="services-box" onclick="location.href='#contact'">
+                <i class='bx bx-book-heart'></i>
+                <h3>Personalized Book Creation</h3>
+                <p>Create a bespoke book for any occasion, featuring custom cover art, personalized messages, and shared memories. Our team works closely with you to capture the essence of your special moments.</p>
+            </div>
+    
+            <!-- Interactive Elements -->
+            <div class="services-box" onclick="location.href='#contact'">
+                <i class='bx bx-puzzle'></i>
+                <h3>Interactive Elements</h3>
+                <p>Engage with creative riddles, QR codes linking to personal videos, and interactive sections within your book, making each page a new discovery and a collaborative experience.</p>
+            </div>
+    
+            <!-- Collaborative Storytelling -->
+            <div class="services-box" onclick="location.href='#contact'">
+                <i class='bx bx-group'></i>
+                <h3>Collaborative Storytelling</h3>
+                <p>Involve friends and family in the storytelling process. Share stories, photos, and personal messages to make your book a collective work of art that celebrates shared experiences.</p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="about-content">
+            <h2 class="heading">About <span>GiftBook</span></h2>
+            <p>
+                Ready to create a lasting memory? GiftBook specializes in crafting personalized books for every special occasion. Begin the journey of turning your memories into a beautifully crafted keepsake.
+            </p>
+            <a href="https://forms.gle/uPU7KHtA5Hg5QW1Y6" class="btn">Order Your Book Now</a>
+        </div>
+        
+        
+    </section>
+    
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Us</span></h2>
+        <form action="https://formspree.io/f/xknlewjz" method="POST">
+            <div class="input-box">
+                <input type="text" id="full-name" name="full-name" placeholder="Full Name">
+                <input type="email" id="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" id="mobile-number" name="mobile-number" placeholder="Mobile Number">
+                <input type="text" id="email-subject" name="email-subject" placeholder="Email Subject">
+            </div>
+            <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+        <div id="status-message"></div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by MOUNAJJIM | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i>
+
+            </a>
+        </div>
+    </footer>
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
